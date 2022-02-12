@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    var infoToast = document.getElementById('infoToast')
+    var toast = new bootstrap.Toast(infoToast)
+    toast.show()
 });
 
 $('#vertical-carousel').bind('mousewheel DOMMouseScroll', function (e) {

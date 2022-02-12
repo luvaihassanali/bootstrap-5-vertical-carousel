@@ -1,7 +1,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  background-color: darkgrey;  
+  background-color: darkgrey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,8 +19,7 @@ html, body {
   background-size: cover;
 }
 
-.carousel-item-prev:not(.carousel-item-end),
-.active.carousel-item-start {
+.carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
   transform: translate3d(0, -100%, 0);
   -webkit-transform: translate3d(0, -100%, 0);
   -moz-transform: translate3d(0, -100%, 0);
@@ -28,8 +27,7 @@ html, body {
   -o-transform: translate3d(0, -100%, 0);
 }
 
-.carousel-item-next:not(.carousel-item-start),
-.active.carousel-item-end {
+.carousel-item-next:not(.carousel-item-start), .active.carousel-item-end {
   transform: translate3d(0, 100%, 0);
   -webkit-transform: translate3d(0, 100%, 0);
   -ms-transform: translate3d(0, 100%, 0);
@@ -65,9 +63,10 @@ html, body {
   position: fixed;
   top: 95%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(90deg) ;
+  transform: translate(-50%, -50%) rotate(90deg);
+  z-index: -1;
 }
 
 .carousel-control-prev-icon {
-   top: 5%;
+  top: 5%;
 }
