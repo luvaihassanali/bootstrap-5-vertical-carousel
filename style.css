@@ -75,3 +75,11 @@ html, body {
 .carousel-control-prev-icon {
   top: 5%;
 }
+
+.unclickable {
+  pointer-events: none;
+}
+
+.clickable {
+  pointer-events: all;
+}

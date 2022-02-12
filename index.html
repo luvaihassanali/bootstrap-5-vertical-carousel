@@ -36,7 +36,7 @@
     <div class="carousel-container justify-content-center">
       <!-- data-bs-interval: the amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle -->
       <!-- data-bs wrap: whether the carousel should cycle continuously (i.e go from first to last and vice-versa) -->
-      <div id="vertical-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false"
+      <div id="vertical-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500"
         data-bs-wrap="true">
         <!-- Carousel slide indicators -->
         <ol class="carousel-indicators">
@@ -65,12 +65,12 @@
         </div>
       </div>
       <!-- Carousel buttons -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#vertical-carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <button class="unclickable carousel-control-prev" type="button" data-bs-target="#vertical-carousel" data-bs-slide="prev">
+        <span class="clickable carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#vertical-carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <button class="unclickable carousel-control-next" type="button" data-bs-target="#vertical-carousel" data-bs-slide="next">
+        <span class="clickable carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
