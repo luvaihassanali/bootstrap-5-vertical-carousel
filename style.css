@@ -12,6 +12,11 @@ html, body {
   height: 80%;
 }
 
+.carousel {
+  border-radius: 50px 50px 50px 50px;
+  overflow: hidden;
+}
+
 .carousel-inner, .carousel, .carousel-item, .carousel-container {
   height: 100%;
   width: 100%;
