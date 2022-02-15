@@ -4,8 +4,8 @@
 
 ### Browser
 
-![Browser example](./images/browser.gif)
+<img src="./images/browser.gif" width="80%"/>
 
 ### Mobile
 
-![Mobile example](./images/mobile.gif)
+<img src="./images/mobile.gif"/>
