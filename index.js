@@ -28,4 +28,6 @@ $("#vertical-carousel").on("touchstart", function (event) {
     $(".carousel").on("touchend", function () {
         $(this).off("touchmove");
     });
+    event.preventDefault();
 });
+
