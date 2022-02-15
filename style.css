@@ -12,12 +12,16 @@ html, body {
   height: 80%;
 }
 
+.carousel {
+  border: 8px solid rgb(212, 212, 212);
+  border-radius: 8px;
+}
+
 .carousel-inner, .carousel, .carousel-item, .carousel-container {
   height: 100%;
   width: 100%;
   background-position: center center;
   background-size: cover;
-  border-radius: 50px 50px 50px 50px;
 }
 
 .carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
