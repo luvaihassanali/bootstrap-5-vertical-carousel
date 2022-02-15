@@ -10,7 +10,6 @@ $('#vertical-carousel').bind('mousewheel DOMMouseScroll', function (e) {
     }
     else {
         $(this).carousel('next');
-
     }
 });
 
