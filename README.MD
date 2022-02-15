@@ -4,7 +4,7 @@
 
 ### Browser
 
-<img src="./images/browser.gif" width="80%"/>
+<img src="./images/browser.gif" width="100%"/>
 
 ### Mobile
 
