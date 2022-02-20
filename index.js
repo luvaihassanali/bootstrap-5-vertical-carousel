@@ -15,6 +15,7 @@ $('#vertical-carousel').bind('mousewheel DOMMouseScroll', function (e) {
     else {
         $(this).carousel('next');
     }
+    e.preventDefault();
 });
 
 $("#vertical-carousel").on("touchstart", function (event) {
